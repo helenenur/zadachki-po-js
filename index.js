@@ -61,16 +61,16 @@
 // }
 // console.log(square(5))
 
-// 6// functionName(num) // Корень этого числа равен
-function root(a) {
-  return Math.sqrt(a)
-}
-console.log(root(25))
-// // // 7  functionName(a, b, c, d, e) // Периметр - ...
-// function triangle(a, b, c, d, e) {
-//   return a + b + c + d + e;
+// // 6// functionName(num) // Корень этого числа равен
+// function root(a) {
+//   return Math.sqrt(a)
 // }
-// console.log(triangle(5,3,6,9,5))
+// console.log(root(25))
+// // 7  functionName(a, b, c, d, e) // Периметр - ...
+function triangle(a, b, c, d, e) {
+  return a + b + c + d + e;
+}
+console.log(triangle(5,3,6,9,5))
 
 // // 8// 0 3 6 9 ...
 // let number = 33;
