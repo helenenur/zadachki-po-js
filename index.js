@@ -41,19 +41,19 @@
 // isEven(5)
 // isEven("gfhgf")
 
-// positive(num) // проверка на положительное число (true || false)
-function isPositive(num) {
-  return num >= 0;
-}
-
-// // вернуть положительное число
-// function toPositive(num) {
-//   if (num >= 0) {
-//     return num;
-//   } else {
-//     return num * -1;
-//   }
+// // positive(num) // проверка на положительное число (true || false)
+// function isPositive(num) {
+//   return num >= 0;
 // }
+
+// вернуть положительное число
+function toPositive(num) {
+  if (num >= 0) {
+    return num;
+  } else {
+    return num * -1;
+  }
+}
 
 // //5 квадрат числа
 // function square(num){
