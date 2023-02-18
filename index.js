@@ -10,20 +10,20 @@
 // nameIs("Severa");
 // surnameIs("Sulaimanova");
 
-2//functionName(height, radius)
-function getConeVolume(h, r) {
-  let V = 0
-  let pi = 3.14
-  console.log( V = (h * pi * (r ** 2) / 3));
-}
-getConeVolume(10., 5);
-
-// // 3// Длина строки равна ...
-
-// function strLength(text) {
-//   console.log(text.length)
+// 2//functionName(height, radius)
+// function getConeVolume(h, r) {
+//   let V = 0
+//   let pi = 3.14
+//   console.log( V = (h * pi * (r ** 2) / 3));
 // }
-// strLength("This is another")
+// getConeVolume(10., 5);
+
+// 3// Длина строки равна ...
+
+function strLength(text) {
+  console.log(text.length)
+}
+strLength("This is another")
 
 // 4// functionName(num) // Число - четное || Число - нечетное
 // function isEven(num){
