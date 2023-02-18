@@ -46,20 +46,20 @@
 //   return num >= 0;
 // }
 
-// вернуть положительное число
-function toPositive(num) {
-  if (num >= 0) {
-    return num;
-  } else {
-    return num * -1;
-  }
-}
-
-// //5 квадрат числа
-// function square(num){
-//   return num ** 2
+// // вернуть положительное число
+// function toPositive(num) {
+//   if (num >= 0) {
+//     return num;
+//   } else {
+//     return num * -1;
+//   }
 // }
-// console.log(square(5))
+
+//5 квадрат числа
+function square(num){
+  return num ** 2
+}
+console.log(square(5))
 
 // // 6// functionName(num) // Корень этого числа равен
 // function root(a) {
