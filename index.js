@@ -20,26 +20,26 @@
 
 // 3// Длина строки равна ...
 
-function strLength(text) {
-  console.log(text.length)
-}
-strLength("This is another")
-
-// 4// functionName(num) // Число - четное || Число - нечетное
-// function isEven(num){
-//   if(num % 2 === 0){
-//     console.log("even - " + num)
-//   }
-//   else if(num % 2 === 1){
-//     console.log("odd - " + num)
-//   }
-//   else{
-//     console.log("error - " + num)
-//   }
+// function strLength(text) {
+//   console.log(text.length)
 // }
-// isEven(2)
-// isEven(5)
-// isEven("gfhgf")
+// strLength("This is another")
+
+4// functionName(num) // Число - четное || Число - нечетное
+function isEven(num){
+  if(num % 2 === 0){
+    console.log("even - " + num)
+  }
+  else if(num % 2 === 1){
+    console.log("odd - " + num)
+  }
+  else{
+    console.log("error - " + num)
+  }
+}
+isEven(2)
+isEven(5)
+isEven("gfhgf")
 
 // // positive(num) // проверка на положительное число (true || false)
 // function isPositive(num) {
