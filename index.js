@@ -79,6 +79,11 @@
 // }
 
  //9 ...
+ let factor = 1;
+ for ( i = 1; i < 9; i++) {
+   factor = i * factor;
+ }
+ console.log( "8.(8!)" );
 
 
 // // 10/ 1 4 9 ...
@@ -167,9 +172,9 @@
 
 // console.log(elem);
 
-//21
-// cat - true
-// parrot - false
-let animals =  ["cat", "dog", "snake"] ;
-console.log(animals.indexOf('cat') != -1);
-console.log(animals.includes('parrot'));
+// //21
+// // cat - true
+// // parrot - false
+// let animals =  ["cat", "dog", "snake"] ;
+// console.log(animals.indexOf('cat') != -1);
+// console.log(animals.includes('parrot'));
