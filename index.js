@@ -133,31 +133,31 @@
 // let phrase = ["I", "like","to", "eat"];
 // console.log(phrase. join( ));
 
-//18 ["three", "two", "one"]
-let numer = ["one",  "two" , "three"];
-for (let i = 0; i <numer.length; i ++){
-  console.log( numer[i] );
-}
+// //18 ["three", "two", "one"]
+// let numer = ["one",  "two" , "three"];
+// for (let i = 0; i <numer.length; i ++){
+//   console.log( numer[i] );
+// }
 
-for (let i = numer.length - 1; i>=0; i--) {
-  console.log( numer[i]);
-}
+// for (let i = numer.length - 1; i>=0; i--) {
+//   console.log( numer[i]);
+// }
 
 //19
-// let trainer = ["Ermek"];
-// for (let i = 0; i < trainer.length; i++) {
-//   console.log("Hello" + trainer[i]);
-// }
+let trainer = ["Ermek"];
+for (let i = 0; i < trainer.length; i++) {
+  console.log("Hello" + trainer[i]);
+}
 
-// let volunter = ["Erlan"];
-// for (let i = 0; i < volunter.length; i++) {
-//   console.log("Hello" + volunter[i]);
-// }
+let volunter = ["Erlan"];
+for (let i = 0; i < volunter.length; i++) {
+  console.log("Hello" + volunter[i]);
+}
 
-// let mentor = ["Erjan"];
-// for (let i = 0; i < mentor.length; i++) {
-//   console.log("Hello" + mentor[i]);
-// }
+let mentor = ["Erjan"];
+for (let i = 0; i < mentor.length; i++) {
+  console.log("Hello" + mentor[i]);
+}
 
 // // 4, 9,16, 25
 // let elem = [2, 3, 4, 5];
