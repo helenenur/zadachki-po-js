@@ -122,16 +122,16 @@
 // fruits.unshift("cocos", "mandarine", "kivi"); //adds in the begining
 // console.log(fruits)
 
-//15
-let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let i = 2; i <= 10; i++) {
-  if (i % 2 == 0) {
-    console.log(i);
-  }
-}
-// 17
-// let phrase = ["I", "like","to", "eat"];
-// console.log(phrase. join( ));
+// //15
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 2; i <= 10; i++) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
+//17
+let phrase = ["I", "like","to", "eat"];
+console.log(phrase. join( ));
 
 // 18// ["three", "two", "one"]
 // let numer = ["one",  "two" , "three"];
