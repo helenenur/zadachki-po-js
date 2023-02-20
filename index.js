@@ -74,112 +74,98 @@
 
 // // 8// 0 3 6 9 ...
 
-for ( i = 0; i < 35; i +=3) {
-  console.log(i);
-}
-
-// 9// ...
-
-// function factorial(n) {
-//   return 8 != 1 ? n * factorial(n - 1) : 1;
+// for ( i = 0; i < 35; i +=3) {
+//   console.log(i);
 // }
 
-// alert(factorial(8));
+ //9 ...
 
-// function factorial(n) {
-//   return n ? n * factorial(n - 1) : 1;
-// }
-
-// alert(factorial(8));
 
 // 10// 1 4 9 ...
-// for (let i = 0; i>=10; i++) {
-//   console.log("1,4,9");
-// }
+function numSquer(n) {
+  let x = ' ';
+  let  y  = 0;
+  for (let i =1; i <= n; i++) {
+      y  += (2 * i - 1);
+      x += y + ' ' ;
+  }
+  return x;
+}
+console.log(numSquer(3));
 
-// 11// ...
-// let numb = 1;
-// while (num <= 25) {
+
+// // 11// ...
+// let num = 1;
+//  while (num <= 25){
 //   console.log(num);
 //   num++;
+//  }
+
+ // 12
+// for (let i =2; i <= 20; i ++) {
+//   if (i %  2 == 0){
+//     console.log(i)
+//   }
 // }
 
-// 12// 0 2 4
-// for (let i = 0; i <= 20; i++) {
+ // 1 3 ...
+// for (let i = 1; i < 15; i+=1) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+// }
+
+
+//14
+
+// //15
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 2; i <= 10; i++) {
 //   if (i % 2 == 0) {
-//     alert(i);
+//     console.log(i);
 //   }
 // }
+// 17
+// let phrase = ["I", "like","to", "eat"];
+// console.log(phrase. join( ));
 
-// 13// 1 3 ...
-// for (let i = 0; i <= 15; i--) {
-//   if (i % 2 == 0) {
-//     alert(i);
-//   }
+// 18// ["three", "two", "one"]
+// let numer = ["one",  "two" , "three"];
+// for (let i = 0; i <numer.length; i ++){
+//   console.log("Hello, they are " + numer[i] + ".Excellent .");
 // }
 
-
-// var alpha = ['a', 'b', ];
-
-// var alphaNumeric = alpha.concat(1, [2, 3]);
-
-// console.log(alphaNumeric); // Результат: ['a', 'b', 1, 2, 3]
-
-// 14for i:=1 to n do
-// begin
-// if not odd(arr[i]) then
-// inc(sum,arr[i]);
-// if arr[i]>x then
-// inc(kol);
-// end;
-
-// {
-// int[] myArray = [2, 3, 4, 99, 49, 64, 77, 4, 42, 5];
-// int result = 0;
-// for (int i =0; i < myArray.length; i++)
-       
-// {
-//   if (myArray[i] % 2 ==0)
-//   {
-//     result += myArray[i];
-    
-//   }
-// }
-// Console.WriteLine(result);
-// Console.ReadLine( );
+// for (let i = numer.length - 1; i>=0; i--) {
+//   console.log("Hello,they are" + numer[i] + ".Excellent.");
 // }
 
-// let phrase = ["I", "like", "to", "eat"];
-// let resulte = 0;
-// for (let i = 0; i < phrase.length; i++) {
-//   result = result + phrase [i].length;
-// }
-// console.log(result.length);
-
-// 15// ["three", "two", "one"]
-// let number = ["one, two", "three"];
-// let result  = 0;
-// for (let i = names.length - 1; i>=0; i--) {
-//   console.log("three" + number[i] + ".one.");
+//19
+// let trainer = ["Ermek"];
+// for (let i = 0; i < trainer.length; i++) {
+//   console.log("Hello" + trainer[i]);
 // }
 
-// 16// 4 9 16 25
-// let arr = [2, 3, 4, 5];
-// for (let elem of arr) {
-//       elem = elem ** 2;
+// let volunter = ["Erlan"];
+// for (let i = 0; i < volunter.length; i++) {
+//   console.log("Hello" + volunter[i]);
 // }
 
-// console.log(arr);
+// let mentor = ["Erjan"];
+// for (let i = 0; i < mentor.length; i++) {
+//   console.log("Hello" + mentor[i]);
+// }
 
-// 16// cat - true
+// // 4, 9,16, 25
+// let elem = [2, 3, 4, 5];
+// for (let i  in elem) {
+//       elem[i] = elem[i] ** 2;
+// }
+
+// console.log(elem);
+
+// //21
+// // cat - true
 // // parrot - false
-// const pets = ["cat", "dog", "snake"];
-// let login = "pets";
-
-// if (login === "pets" && parrot === "All the pets") {
-//   console.log("Correct");
-// }
-// else {
-//   console.log("Incorrect");
-// }
-
+// let animals =  ["cat", "dog", "snake"] ;
+// console.log(animals.indexOf('cat') != -1);
+// console.log(animals.includes('parrot'));
