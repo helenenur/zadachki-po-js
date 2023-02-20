@@ -159,17 +159,17 @@
 //   console.log("Hello" + mentor[i]);
 // }
 
-// 4, 9,16, 25
-let elem = [2, 3, 4, 5];
-for (let i  in elem) {
-      elem[i] = elem[i] ** 2;
-}
+// // 4, 9,16, 25
+// let elem = [2, 3, 4, 5];
+// for (let i  in elem) {
+//       elem[i] = elem[i] ** 2;
+// }
 
-console.log(elem);
+// console.log(elem);
 
-// //21
-// // cat - true
-// // parrot - false
-// let animals =  ["cat", "dog", "snake"] ;
-// console.log(animals.indexOf('cat') != -1);
-// console.log(animals.includes('parrot'));
+//21
+// cat - true
+// parrot - false
+let animals =  ["cat", "dog", "snake"] ;
+console.log(animals.indexOf('cat') != -1);
+console.log(animals.includes('parrot'));
