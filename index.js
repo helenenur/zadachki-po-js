@@ -94,19 +94,19 @@
 // console.log(numSquer(3));
 
 
-11// ...
-let num = 1;
- while (num <= 25){
-  console.log(num);
-  num++;
- }
+// 11// ...
+// let num = 1;
+//  while (num <= 25){
+//   console.log(num);
+//   num++;
+//  }
 
- // 12
-// for (let i =2; i <= 20; i ++) {
-//   if (i %  2 == 0){
-//     console.log(i)
-//   }
-// }
+ //12
+for (let i =2; i <= 20; i ++) {
+  if (i %  2 == 0){
+    console.log(i)
+  }
+}
 
  // 1 3 ...
 // for (let i = 1; i < 15; i+=1) {
