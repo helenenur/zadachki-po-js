@@ -143,29 +143,29 @@
 //   console.log( numer[i]);
 // }
 
-//19
-let trainer = ["Ermek"];
-for (let i = 0; i < trainer.length; i++) {
-  console.log("Hello" + trainer[i]);
-}
-
-let volunter = ["Erlan"];
-for (let i = 0; i < volunter.length; i++) {
-  console.log("Hello" + volunter[i]);
-}
-
-let mentor = ["Erjan"];
-for (let i = 0; i < mentor.length; i++) {
-  console.log("Hello" + mentor[i]);
-}
-
-// // 4, 9,16, 25
-// let elem = [2, 3, 4, 5];
-// for (let i  in elem) {
-//       elem[i] = elem[i] ** 2;
+// //19
+// let trainer = ["Ermek"];
+// for (let i = 0; i < trainer.length; i++) {
+//   console.log("Hello" + trainer[i]);
 // }
 
-// console.log(elem);
+// let volunter = ["Erlan"];
+// for (let i = 0; i < volunter.length; i++) {
+//   console.log("Hello" + volunter[i]);
+// }
+
+// let mentor = ["Erjan"];
+// for (let i = 0; i < mentor.length; i++) {
+//   console.log("Hello" + mentor[i]);
+// }
+
+// 4, 9,16, 25
+let elem = [2, 3, 4, 5];
+for (let i  in elem) {
+      elem[i] = elem[i] ** 2;
+}
+
+console.log(elem);
 
 // //21
 // // cat - true
